@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/screenwin"
+    android:contentDescription="@null" />
+
+    <!-- Text Overlay -->
+    <TextView
+        android:id="@+id/textOverlayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Tap each hidden object \n that you see in each painting. "
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+    android:background="#80000000"
+    android:padding="16dp"
+    android:gravity="center"
+    android:visibility="visible" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Go"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+    android:textSize="18sp" />
+
+</RelativeLayout>
